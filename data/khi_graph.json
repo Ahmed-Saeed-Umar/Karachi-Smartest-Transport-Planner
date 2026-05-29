@@ -1,0 +1,323 @@
+{
+  "nodes": [
+    "Saddar",
+    "Clifton",
+    "DHA",
+    "Korangi",
+    "Landhi",
+    "Malir",
+    "Gulshan",
+    "Johar",
+    "North Nazimabad",
+    "Nazimabad",
+    "Liaquatabad",
+    "North Karachi",
+    "Orangi",
+    "SITE",
+    "Lyari",
+    "Kemari",
+    "Garden",
+    "Gulberg",
+    "Buffer Zone",
+    "Surjani",
+    "Malir Cantt",
+    "Defence View"
+  ],
+  "coordinates": {
+    "Saddar": {
+      "lat": 24.8607,
+      "lng": 67.0105
+    },
+    "Clifton": {
+      "lat": 24.8138,
+      "lng": 67.03
+    },
+    "DHA": {
+      "lat": 24.792,
+      "lng": 67.0721
+    },
+    "Korangi": {
+      "lat": 24.8345,
+      "lng": 67.1274
+    },
+    "Landhi": {
+      "lat": 24.8567,
+      "lng": 67.149
+    },
+    "Malir": {
+      "lat": 24.8934,
+      "lng": 67.2014
+    },
+    "Gulshan": {
+      "lat": 24.9215,
+      "lng": 67.0956
+    },
+    "Johar": {
+      "lat": 24.9042,
+      "lng": 67.1341
+    },
+    "North Nazimabad": {
+      "lat": 24.943,
+      "lng": 67.0356
+    },
+    "Nazimabad": {
+      "lat": 24.9101,
+      "lng": 67.0259
+    },
+    "Liaquatabad": {
+      "lat": 24.9003,
+      "lng": 67.0481
+    },
+    "North Karachi": {
+      "lat": 24.9872,
+      "lng": 67.0613
+    },
+    "Orangi": {
+      "lat": 24.962,
+      "lng": 66.9988
+    },
+    "SITE": {
+      "lat": 24.9282,
+      "lng": 66.9923
+    },
+    "Lyari": {
+      "lat": 24.8916,
+      "lng": 66.9942
+    },
+    "Kemari": {
+      "lat": 24.8399,
+      "lng": 66.975
+    },
+    "Garden": {
+      "lat": 24.874,
+      "lng": 67.023
+    },
+    "Gulberg": {
+      "lat": 24.901,
+      "lng": 67.0653
+    },
+    "Buffer Zone": {
+      "lat": 24.9651,
+      "lng": 67.0822
+    },
+    "Surjani": {
+      "lat": 25.0102,
+      "lng": 67.0381
+    },
+    "Malir Cantt": {
+      "lat": 24.9122,
+      "lng": 67.2101
+    },
+    "Defence View": {
+      "lat": 24.8321,
+      "lng": 67.0561
+    }
+  },
+  "edges": [
+    {
+      "from": "Saddar",
+      "to": "Clifton",
+      "weight_minutes": 12
+    },
+    {
+      "from": "Saddar",
+      "to": "Garden",
+      "weight_minutes": 10
+    },
+    {
+      "from": "Saddar",
+      "to": "Lyari",
+      "weight_minutes": 18
+    },
+    {
+      "from": "Saddar",
+      "to": "Nazimabad",
+      "weight_minutes": 20
+    },
+    {
+      "from": "Saddar",
+      "to": "Gulberg",
+      "weight_minutes": 15
+    },
+    {
+      "from": "Saddar",
+      "to": "Defence View",
+      "weight_minutes": 20
+    },
+    {
+      "from": "Clifton",
+      "to": "DHA",
+      "weight_minutes": 18
+    },
+    {
+      "from": "Clifton",
+      "to": "Defence View",
+      "weight_minutes": 12
+    },
+    {
+      "from": "DHA",
+      "to": "Defence View",
+      "weight_minutes": 10
+    },
+    {
+      "from": "DHA",
+      "to": "Korangi",
+      "weight_minutes": 45
+    },
+    {
+      "from": "Kemari",
+      "to": "Lyari",
+      "weight_minutes": 20
+    },
+    {
+      "from": "Kemari",
+      "to": "Saddar",
+      "weight_minutes": 30
+    },
+    {
+      "from": "Korangi",
+      "to": "Landhi",
+      "weight_minutes": 15
+    },
+    {
+      "from": "Korangi",
+      "to": "Johar",
+      "weight_minutes": 22
+    },
+    {
+      "from": "Landhi",
+      "to": "Malir",
+      "weight_minutes": 18
+    },
+    {
+      "from": "Landhi",
+      "to": "Malir Cantt",
+      "weight_minutes": 25
+    },
+    {
+      "from": "Malir",
+      "to": "Malir Cantt",
+      "weight_minutes": 14
+    },
+    {
+      "from": "Malir",
+      "to": "Gulshan",
+      "weight_minutes": 28
+    },
+    {
+      "from": "Johar",
+      "to": "Gulshan",
+      "weight_minutes": 16
+    },
+    {
+      "from": "Johar",
+      "to": "Malir Cantt",
+      "weight_minutes": 20
+    },
+    {
+      "from": "Gulshan",
+      "to": "Liaquatabad",
+      "weight_minutes": 22
+    },
+    {
+      "from": "Gulshan",
+      "to": "Buffer Zone",
+      "weight_minutes": 18
+    },
+    {
+      "from": "Gulshan",
+      "to": "North Nazimabad",
+      "weight_minutes": 20
+    },
+    {
+      "from": "Gulberg",
+      "to": "Liaquatabad",
+      "weight_minutes": 12
+    },
+    {
+      "from": "Gulberg",
+      "to": "Nazimabad",
+      "weight_minutes": 10
+    },
+    {
+      "from": "Nazimabad",
+      "to": "Liaquatabad",
+      "weight_minutes": 12
+    },
+    {
+      "from": "Nazimabad",
+      "to": "North Nazimabad",
+      "weight_minutes": 15
+    },
+    {
+      "from": "Liaquatabad",
+      "to": "North Nazimabad",
+      "weight_minutes": 18
+    },
+    {
+      "from": "Liaquatabad",
+      "to": "SITE",
+      "weight_minutes": 22
+    },
+    {
+      "from": "North Nazimabad",
+      "to": "North Karachi",
+      "weight_minutes": 20
+    },
+    {
+      "from": "North Nazimabad",
+      "to": "Orangi",
+      "weight_minutes": 28
+    },
+    {
+      "from": "North Karachi",
+      "to": "Surjani",
+      "weight_minutes": 18
+    },
+    {
+      "from": "North Karachi",
+      "to": "Buffer Zone",
+      "weight_minutes": 16
+    },
+    {
+      "from": "Buffer Zone",
+      "to": "Surjani",
+      "weight_minutes": 22
+    },
+    {
+      "from": "Orangi",
+      "to": "Surjani",
+      "weight_minutes": 25
+    },
+    {
+      "from": "Orangi",
+      "to": "SITE",
+      "weight_minutes": 20
+    },
+    {
+      "from": "SITE",
+      "to": "Lyari",
+      "weight_minutes": 25
+    },
+    {
+      "from": "SITE",
+      "to": "Garden",
+      "weight_minutes": 28
+    },
+    {
+      "from": "Lyari",
+      "to": "Garden",
+      "weight_minutes": 15
+    },
+    {
+      "from": "Garden",
+      "to": "Gulberg",
+      "weight_minutes": 12
+    },
+    {
+      "from": "Surjani",
+      "to": "Malir Cantt",
+      "weight_minutes": 55
+    }
+  ]
+}
